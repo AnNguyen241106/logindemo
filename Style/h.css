@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans&display=swap');
+
+* {
+    font-family: 'TikTok Sans', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #C0C0C0;
+}
+div {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+
+.space {
+
+    display: flex;
+    /* min-height: 400px; */
+    background-color: blue;
+    flex-grow: 1;
+    width: 50%;
+    flex-shrink: 1;
+     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#signinspace {
+    background-color: white;
+    align-items: center;
+}
+
+p {
+    margin: 0 1rem;
+    
+    padding-inline: auto;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+li {
+    font-style: none;
+}
+
+li a img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#div2 {
+    /* margin: 0; */
+    background: linear-gradient(to bottom, #2ecc71, #3EB489);
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+
+.input {
+    box-sizing: border-box;
+
+    width: 70%;
+    margin: 10px;
+     /* height: 3rem; */
+     background-color: #E5E4E2;
+    border: none;
+    padding: 20px 35px 20px 20px;
+    border-radius: 6px;
+}
+
+.button {
+    color: white;
+    background-color: #2E8B57;
+}
+
+#wrapper {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 3rem;
+}
+
+#wrapper a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
